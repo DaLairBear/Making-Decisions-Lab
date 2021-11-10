@@ -136,18 +136,21 @@ console.log(`It is ${changeMyMind} that you can change my mind.`)
 
 if(changeMyMind === true){
   changeMyMind = false
-  console.log(`It is ${changeMyMind} that you can change my mind now.`)
+  console.log(`But it is ${changeMyMind} that you can change my mind now.`)
 }else{
   changeMyMind = true
-  console.log(`It is ${changeMyMind} that you can change my mind now.`)
+  console.log(`But it is ${changeMyMind} that you can change my mind now.`)
 }
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
 
-
-
+if(changeMyMind = true || false){
+  changeMyMind = true
+  console.log(`But maybe it will always be ${changeMyMind} that your can change my mind.`)
+}
+  
 ////////// ADVANCED PROBLEMS //////////
 
 ////////// PROBLEM 11 //////////
