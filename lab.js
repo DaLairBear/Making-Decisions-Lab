@@ -5,13 +5,13 @@
   If it is true, console log "I love to code!"
   If it is not, console log "Coding has its challenges."
 */
+//CODE HERE
 let lovesCode = true
 if(lovesCode === true){
   console.log("I love to Code!")
 }else{
   console.log("Coding has its challenges.")
 }
-//CODE HERE
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
@@ -51,6 +51,7 @@ if(amysBirthYear === brittanisBirthYear){
 
 let temperature = 55
 let rain = true
+
 /*
   Using an if statement and a comparison operator, create code that will log a suggestion on what type of clothes one should wear for the day, based on the above temperature and rain.
   If it is 80 degrees or above, and raining, one should wear a t-shirt and take an umbrella. If it is between 60 and 80 degrees, and raining, one should wear a rain-jacket. If it is 60 degrees or below, one should wear a jacket and carry an umbrella. Come up with your own clothing suggestions based on those temperature parameters when it is not raining.
@@ -120,6 +121,7 @@ while(score < passingScore){
   score++
 }
 console.log(`Your score is ${score}, Congratulations it is high enough!`)
+
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -141,11 +143,11 @@ if(changeMyMind === true){
   changeMyMind = true
   console.log(`But it is ${changeMyMind} that you can change my mind now.`)
 }
+
 ////////// PROBLEM 10 //////////
 // Try to change the value of changeMyMind (irrespective of whether it is true or false) and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
-
 if(changeMyMind = true || false){
   changeMyMind = true
   console.log(`But maybe it will always be ${changeMyMind} that your can change my mind.`)
@@ -159,3 +161,14 @@ let z = 5
 // Create a while loop that continues to run while z is greater than 0. Within the while loop, log a countdown from the value of z to 1. Once you have logged the countdown, make sure you decrement z by 1. If your code is running properly, you should see: 5,4,3,2,1,4,3,2,1,3,2,1,2,1,1.
 
 //CODE HERE
+while(z > 0){
+
+  let countdown = z
+
+  for(i = countdown; i > 0; i--)
+  console.log(i)
+  
+    if(i = 1){
+      z -= 1
+  }
+ }
